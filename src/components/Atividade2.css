@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+  
+--Red500: hsl(10, 79%, 65%);
+--Blue300: hsl(186, 34%, 65%);
+--Brown950: hsl(25, 47%, 15%);
+--Brown400: hsl(28, 10%, 53%);
+--Red100: hsl(26, 66%, 93%);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--Red100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.myBalance{
+  width: 400px;
+  height: 100px;
+  background-color: var(--Red500);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Red100);
+}
+
+.Logo{
+  margin-right: 20px;
+}
+
+.bloco{
+  margin-left: 20px;
+}
+

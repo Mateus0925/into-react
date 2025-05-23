@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 26px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+input{
+    background-color: rgb(48, 44, 44);
+    border: none;
+}
